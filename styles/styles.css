@@ -1,0 +1,348 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+main {
+  height: 75vh;
+  background-image: url(/images/mobile/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main header {
+  padding: 35px 25px;
+}
+
+main header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main header .navbar .burger-img {
+  cursor: pointer;
+  height: 1.125rem;
+}
+
+main header .navbar .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 70px;
+  gap: 1.5rem;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  right: 50%;
+  position: fixed;
+  background-color: white;
+  width: 85vw;
+  height: 35vh;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+main header .navbar .nav-menu.active {
+  right: -150%;
+}
+
+main header .navbar .nav-menu li {
+  list-style: none;
+  font-family: "barlow", sans-serif;
+  color: #5a636c;
+  font-size: 18px;
+}
+
+main .creative {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .creative h1 {
+  font-family: "fraunces", serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+main .creative #arrow {
+  height: 150px;
+}
+
+.transform .egg-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.transform .about {
+  padding-top: 35px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.transform .about h2 {
+  font-family: "fraunces", serif;
+  font-size: 30px;
+  max-width: 284px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.transform .about p {
+  font-family: "barlow", sans-serif;
+  color: #5a636c;
+  padding-bottom: 25px;
+  max-width: 330px;
+  text-align: center;
+  margin: auto;
+}
+
+.transform .about .learn {
+  text-decoration: none;
+  font-family: "fraunces", serif;
+  color: black;
+  font-size: 18px;
+  background-repeat: no-repeat;
+}
+
+.stand .cup-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.stand .about {
+  padding-top: 35px;
+  text-align: center;
+  padding-bottom: 25px;
+  max-width: 400px;
+}
+
+.stand .about h2 {
+  font-family: "fraunces", serif;
+  font-size: 30px;
+  max-width: 284px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.stand .about p {
+  font-family: "barlow", sans-serif;
+  color: #5a636c;
+  padding-bottom: 25px;
+  max-width: 280px;
+  text-align: center;
+  margin: auto;
+}
+
+.stand .about .learn {
+  text-decoration: none;
+  font-family: "fraunces", serif;
+  color: black;
+  font-size: 18px;
+  background-repeat: no-repeat;
+}
+
+.design {
+  background-image: url(/images/mobile/image-graphic-design.jpg);
+  background-size: cover;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.design .about {
+  padding-bottom: 35px;
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.design .about h2 {
+  font-family: "fraunces", serif;
+  font-size: 30px;
+  color: #25564b;
+}
+
+.design .about p {
+  font-family: "barlow", sans-serif;
+  color: #5a636c;
+  font-weight: 600;
+}
+
+.photo {
+  background-image: url(/images/mobile/image-photography.jpg);
+  background-size: cover;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.photo .about {
+  padding-bottom: 35px;
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.photo .about h2 {
+  font-family: "fraunces", serif;
+  font-size: 30px;
+  color: #25564b;
+}
+
+.photo .about p {
+  font-family: "barlow", sans-serif;
+  color: #5a636c;
+}
+
+.testemonials {
+  padding-bottom: 25px;
+}
+
+.testemonials .client {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.testemonials .client .title {
+  padding-bottom: 60px;
+  font-family: "fraunces", serif;
+  font-size: 14px;
+  color: #458c7e;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.testemonials .client .portrait img {
+  border-radius: 50%;
+  width: 80px;
+}
+
+.testemonials .client .review {
+  font-family: "barlow", sans-serif;
+  color: #5a636c;
+  line-height: 25px;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.testemonials .client .name {
+  font-family: "fraunces", serif;
+  font-size: 18px;
+  padding-bottom: 4px;
+}
+
+.testemonials .client .profession {
+  font-family: "barlow", sans-serif;
+  color: #458c7e;
+}
+
+.photos-concept .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.photos-concept .top img {
+  width: 50%;
+}
+
+.photos-concept .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.photos-concept .bottom img {
+  width: 50%;
+}
+
+footer {
+  background-color: #a7abae;
+  padding-top: 45px;
+  text-align: center;
+}
+
+footer h2 {
+  font-family: "fraunces", serif;
+  font-weight: 900;
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #25564b;
+}
+
+footer nav {
+  padding-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  font-size: 20px;
+}
+
+footer nav li {
+  list-style: none;
+  font-family: "barlow", sans-serif;
+  color: #25564b;
+}
+
+footer .media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 35px;
+  padding-bottom: 50px;
+}
